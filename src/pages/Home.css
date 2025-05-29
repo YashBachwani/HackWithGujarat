@@ -1,0 +1,15 @@
+* {
+  /* margin: 0; */
+  /* padding: 0; */
+  box-sizing: border-box;
+  overflow-x: clip; /* no parentheses */
+}
+
+html, body {
+  height: 100%; /* crucial for 100% height in container */
+background: linear-gradient(to right, #5790AB, #9CCDDB, #D0D7E1);
+}
+
+.slick-slide > div{
+  margin:0 10px;
+}
